@@ -13,38 +13,48 @@ body {
 }
 
 .hero {
+  padding-left: 25%;
 }
 
 .announcement {
+  display: inline-block;
+  border: 0.5px solid rgba(158, 151, 151, 0.281);
+  border-radius: 35px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.064);
+  display: flex;
+  justify-content: flex-start;
+
 }
 
 .announcement-link {
-  /*  */
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
 }
 
-.announcement-link:hover {
-}
+.announcement-link:hover {}
 
-.announcement-text {
-}
+.announcement-text {}
 
 .announcement-button {
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-left: 12px;
+  padding-bottom: 5px;
+  background-color:rgba(255, 255, 255, 0.117);
+  border-radius: 20px;
 }
 
-.hero-content {
-}
+.hero-content {}
 
-.hero-title {
-}
+.hero-title {}
 
-.hero-description {
-}
+.hero-description {}
 
-.cta-button {
-}
+.cta-button {}
 
-.cta-button:hover {
-}
+.cta-button:hover {}
 
 @media (max-width: 640px) {
   .hero {
