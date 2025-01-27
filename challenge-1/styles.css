@@ -32,10 +32,11 @@ body {
   padding: 0.6rem 1.2rem;
   margin: 0.5rem;
   text-decoration: none;
-
 }
 
-.announcement-link:hover {}
+.announcement-link:hover {
+  box-shadow: 20px 0 100px #24f6e8, -20px 0 100px rgb(40, 223, 129);
+}
 
 .announcement-text {
   color: antiquewhite;
@@ -94,7 +95,9 @@ body {
   font-weight: 600;
 }
 
-.cta-button:hover {}
+.cta-button:hover {
+  box-shadow: 0px 0 100px #008cff, -30px 0 100px rgb(244, 30, 244);
+}
 
 @media (max-width: 640px) {
   .hero {
