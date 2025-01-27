@@ -13,46 +13,86 @@ body {
 }
 
 .hero {
-  padding-left: 25%;
+  height: 100vh;
 }
 
 .announcement {
-  display: inline-block;
-  border: 0.5px solid rgba(158, 151, 151, 0.281);
-  border-radius: 35px;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.064);
   display: flex;
-  justify-content: flex-start;
-
+  justify-content: center;
+  margin-top: 10rem;
 }
 
 .announcement-link {
-  color: rgb(255, 255, 255);
+  border: 0.5px solid rgba(138, 138, 138, 0.418);
+  background-color: rgba(207, 117, 217, 0.079);
+  border-radius: 2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem;
   text-decoration: none;
-  text-align: center;
+
 }
 
 .announcement-link:hover {}
 
-.announcement-text {}
+.announcement-text {
+  color: antiquewhite;
+  font-size: 1.2rem;
+  font-weight: 600;
 
-.announcement-button {
-  padding-right: 12px;
-  padding-top: 10px;
-  padding-left: 12px;
-  padding-bottom: 5px;
-  background-color:rgba(255, 255, 255, 0.117);
-  border-radius: 20px;
 }
 
-.hero-content {}
+.announcement-button {
+  text-decoration: none;
+  color: antiquewhite;
+  font-weight: 600;
+  background-color: rgba(228, 192, 232, 0.142);
+  border-radius: 2rem;
+  display: flex;
+  margin: 0 0.5rem;
+  padding: 1rem 1.6rem;
+}
 
-.hero-title {}
+.hero-content {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-.hero-description {}
+.hero-title {
+  font-size: 6rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 15rem;
+  margin-top: 2rem;
+  color: antiquewhite;
+  line-height: 1.4;
+}
 
-.cta-button {}
+.hero-description {
+  color: rgba(250, 235, 215, 0.834);
+  font-size: 1.45rem;
+  margin-top: 4rem;
+  padding: 0 610px;
+  text-align: center;
+}
+
+.cta-button {
+  background-image: linear-gradient(150deg, rgb(24, 53, 237), rgb(200, 94, 246));
+  text-decoration: none;
+  color: antiquewhite;
+  margin-top: 30px;
+  margin-right: 30px;
+  padding: 1.5rem 3rem;
+  border-radius: 3rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
 
 .cta-button:hover {}
 
